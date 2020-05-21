@@ -1,0 +1,69 @@
+{
+    "logo" : "../images/logo.png" ,
+    "Social" : [
+        {
+            "id": 1,
+            "social": "../images/auth/social1.png"
+        },{
+            "id": 2,
+            "social": "../images/auth/social2.png"
+        },{
+            "id": 3,
+            "social": "../images/auth/social3.png"
+        }
+    ],
+    "Servise" : [
+        {
+            "id" : 1,
+            "icon" : "../images/service/service1.png",
+            "name" : "Physician Scheduling",
+            "describe" : " Use the latest technology to reduce the time of creating and maintaining schedules by up to 80%, while giving your team the work-life balance needed to best serve your patients. "
+        },{
+            "id" : 2,
+            "icon" : "../images/service/service2.png",
+            "name" : "Medical Staff Collaboration",
+            "describe" : " Physicians can update their information and communicate with colleagues via a secure messaging channel accessible from the on-calllists. Administrators and authorized staff have access to the most up-to-date contact information. "
+        },{
+            "id" : 3,
+            "icon" : "../images/service/service3.png",
+            "name" : "Patient On Call Synchronization",
+            "describe" : " On-Call centralizes and consolidates on-call Patient lists according to doctors’ clinical shifts and schedule, minimizing response times andcommunication errors. The result? Optimized patient security and quality of care. "
+        },{
+            "id" : 4,
+            "icon" : "../images/service/service4.png",
+            "name" : "Appointment Management System",
+            "describe" : " Give patients the opportunity to book an appointment on your website and sync the online portal with your EMR, reducing double booking.Manage and customize each physician availabilities on all booking channels. "
+        }
+    ],
+    "Reviews" :[
+        {
+            "id" : 1,
+            "image" :"../images/image.png",
+            "name" :"Serina Samy",
+            "service" : "Physician Scheduling",
+            "rate" : 2.5,
+            "comment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        },{
+            "id" : 2,
+            "image" :"../images/image.png",
+            "name" :"Hellen Gourge",
+            "service" : "Medical Staff Collaboration",
+            "rate" : 3,
+            "comment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        },{
+            "id" : 3,
+            "image" :"../images/image.png",
+            "name" :"Mais Kamel",
+            "service" : "Appointment Management System",
+            "rate" : 2,
+            "comment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        },{
+            "id" : 4,
+            "image" :"../images/image.png",
+            "name" :"Cristen Edword",
+            "service" : "Patient On Call Synchronization",
+            "rate" : 5,
+            "comment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        }
+    ]
+}

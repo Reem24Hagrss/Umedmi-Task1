@@ -1,38 +1,214 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+
+/* Start Navbar Styled */
+.navbar{
+    box-shadow : 2px 2px 4px #41085c;
+}
+.navbar .logo{
+    width: 50%;
+}
+.navbar .ant-menu-item:hover{
+    color: #41085c;
+    border-bottom: 2px solid #41085c;
+}
+.ant-menu-horizontal .ant-menu-item:active{
+    color: #41085c;
+    border-bottom: 2px solid #41085c;
+}
+.ant-menu-horizontal .ant-menu-item-selected {
+    color: #41085c;
+    border-bottom: 2px solid #41085c;
+}
+.navbar .ant-menu-item a:hover {
+    color: #41085c;
+    font-weight: bold;
+}
+.ant-menu-horizontal.ant-menu-item a:active {
+    color: #41085c;
+    font-weight: bold;
+}
+.ant-menu-horizontal .ant-menu-item-selected a {
+    color: #41085c;
+    font-weight: bold;
+}
+.navbar .logo:hover{
+    border-bottom: 2px solid #ffffff;
+    cursor: default;
+}
+/* End Navbar Styled */
+/* ----------------------- */
+/* Start Services Styled */
+.service{
+    margin: 10%;
+    margin-top: 2%;
+}
+.service h1{
+    text-shadow : 2px 2px 4px #41085c;
+}
+.service h2 , .service p{
+    color: #41085c;
+}
+.service .container{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.service .container .activeitem{
+    box-shadow : 2px 2px 4px #41085c;
+    padding: 10px;
+    background-color:#e5c9f3 ;
+    border-radius: 10px;
+}
+.service .ant-list-item-meta-avatar{
+    text-align: center;
+    margin-left: 40%;
+}
+.service .ant-col{
+    padding: 8px;
+    height: 60px;
+}
+.service .ant-avatar {
+    box-shadow : 2px 2px 4px #41085c;
+    background-color: #ffffff;
+}
+.service .details{
+    padding: 20px;
+    text-align: left;
+    box-shadow : 2px 2px 4px #41085c;
+    margin-top: 20px;
+    background-color:#e5c9f3 ;
+    border-radius: 10px;
+}
+.service .details h3{
+    width: fit-content;
+    color: #41085c;
+    border-bottom: 2px solid #41085c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* End Services Styled */
+/* ----------------------- */
+/* Start Review Styled */
+.reviews{
+    margin: 20%;
+    margin-top: 2%;
+}
+.reviews h1{
+    text-shadow : 2px 2px 4px #41085c;
+    padding: 20px;
+}
+.reviews .container{
+    padding: 10px;
+    box-shadow : 2px 2px 4px #41085c;
+    background-color:#e5c9f3 ;
+    border-radius: 10px;
+    width: 800px;
+    position: relative;
+}
+.reviews .container::after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 380px solid transparent ;
+    border-right: 400px solid transparent ;
+    border-top: 60px solid #e5c9f3;
+    bottom: -60px;
+}
+.reviews .container .detail{
+    border-bottom: 2px solid #41085c;
+}
+.reviews .container .ant-rate{
+    padding-top: 20px;
+}
+/* End Review Styled */
+/* ----------------------- */
+/* Start LoginPage Styled */
+.loginpage{
+    text-align: center;
+    margin: 2%;
+}
+.loginpage h1{
+    text-shadow : 2px 2px 4px #41085c;
+}
+.loginpage .ant-tabs{
+    margin: 2% 30% 2% 28%;
+    width:600px;
+    box-shadow : 2px 2px 4px #41085c;
+    height: 400px;
+}
+.ant-tabs-nav{
+    width: 80%;
+}
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab{
+    width: 50%;
+}
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active{
+    color:#41085c;
+    font-weight: bolder;
+}
+.ant-tabs-nav .ant-tabs-tab:hover {
+    color:#41085c;
+    font-weight: bolder;
+}
+/* End LoginPage Styled */
+/* ----------------------- */
+/* Start Login and signup Styled */
+.login{
+    text-align: center;
+}
+.login .ant-input-affix-wrapper{
+    margin: 10px;
+    width: 400px;
+}
+.login .login-form-button{
+    margin: 5px;
+    width: 400px;
+    color: #ffffff;
+    background-color: #41085c;
+}
+.login .login-form-button:disabled{
+    margin: 5px;
+    width: 400px;
+    color: #ffffff;
+    background-color: #cfcccc;
+}
+.login .login-form-button:hover{
+    margin: 5px;
+    width: 400px;
+    color: #41085c;
+    background-color: #ffffff;
+    border-color: #41085c;
+}
+.login .ant-form-item{
+    margin: 0px;
+}
+.login .ant-checkbox-wrapper{
+    float: left;
+    margin-left: 100px;
+}
+.login .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #41085c;
+    border-color: #41085c;
+}
+.login .ant-checkbox-input:focus .ant-checkbox-inner {
+    border-color: #41085c;
+}
+.login .login-form-forgot{
+    color: #41085c;
+}
+.login .social img{
+    width: 40px;
+    height: 30px;
+    margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login .login-form-social h3{
+    font-weight: bolder;
+    color: #41085c;
 }
+.login .ant-form-item .selection{
+    margin: 10px;
+    width: 400px;
+}
+/* End Login and signup Styled */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
